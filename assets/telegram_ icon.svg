@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="68" height="68" viewBox="0 0 68 68">
+  <defs>
+    <filter id="Telegram_Icon" x="0" y="0" width="68" height="68" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Telegram_Icon-2" data-name="Telegram Icon" transform="translate(9 6)">
+    <g transform="matrix(1, 0, 0, 1, -9, -6)" filter="url(#Telegram_Icon)">
+      <path id="Telegram_Icon-3" data-name="Telegram Icon" d="M25,.562a25,25,0,1,0,25,25A25,25,0,0,0,25,.562ZM37.278,17.69l-4.1,19.335c-.3,1.371-1.119,1.7-2.258,1.058l-6.25-4.607-3.014,2.9a1.578,1.578,0,0,1-1.26.615l.444-6.361L32.419,20.169c.5-.444-.111-.7-.776-.252L17.329,28.929,11.159,27c-1.341-.423-1.371-1.341.282-1.986l24.1-9.294c1.119-.4,2.1.272,1.734,1.966Z" transform="translate(9 5.44)" fill="#3987c6"/>
+    </g>
+  </g>
+</svg>

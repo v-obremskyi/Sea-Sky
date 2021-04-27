@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sea&Sky Apartments</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="shortcut icon" type="image/ico" href="assets/favicon@2x.png">
+</head>
+<body>
+    <div class="navbar">
+        <div class="container">
+            <a class="logo" href="#"><img src="assets/Logo.svg" alt="Logo"></a>
+            <a class="sign" href="#"><img src="assets/Sea&Sky Insription.svg" alt="Sea and Sky Sign"></a>
+        </div>
+        <img id="mobile-cta" class="menu" src="assets/hamburger_menu.svg" alt="Menu Icon">
+    </div>
+
+    <nav>
+        <img id="mobile-exit" class="mobile-menu-exit" src="assets/exit_icon.svg" alt="Close Navigation">
+        <ul class="upper_nav">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Apartments</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+        <ul class="lower_nav">
+            <li><a href="https://www.facebook.com/sea.sky.apartments/" target="_blank">Facebook</a>/<a href="https://www.instagram.com/sea.sky.apartments/" target="_blank">Instagram</a></li>
+            <li class="current"><a href="#">EN/RU/UA</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero">
+        <div class="container">
+            <div class="right-column">
+                <h1>Unique<br>design apartments<br>in Odessa</h1>
+                <a href="tel:+380939134596">+38.093.91.34.596</a>
+                <img src="assets/handwritten_underline.svg" alt="">
+            </div>
+            <div class="left-column">
+                <img src="assets/pointer.svg" alt="Pointer to the Logo">
+                <img src="assets/main_logo_animation.svg" alt="Main Logo Animation">
+            </div>
+            <div class="search-field">
+                <button>Check-in</button>
+                <button>Check-out</button>
+                <button>Guests</button>
+            </div>
+            <div>
+                <a href="#" id="search" class="btn-search">Search</a>
+            </div>
+        </div>
+        <a class="telegram_icon" href="#"><img src="assets/telegram_ icon.svg" alt="Telegram Icon"></a>
+    </section>
+
+    <section class="apartments">
+        <h2>Apartments</h2>
+        <div class="first_card">
+            <img class="apt366" src="assets/366.jpg" alt="grey wall and grey sofa">
+            <img class="apt590" src="assets/590.jpg" alt="bed with glass door">
+            <img class="black_lines" src="assets/lines_in_black.svg" alt="">
+        </div>
+        <img class="purple_lines"src="assets/lines_in_purple.svg" alt="">
+        <div class="second_card">
+            <img class="apt69" src="assets/69.jpg" alt="">
+            <img class="apt106" src="assets/106.jpg" alt="">
+            <img class="purple_lines_2" src="assets/lines_in_purple_2.svg" alt="">
+        </div>
+        <div>
+            <a href="#" id="more" class="btn-search">Mope apartments<br>...</a>
+        </div>
+    </section>
+
+    <sectiom class="about">
+        <h2>About</h2>
+        <div class="third_card">
+            <img class="sea" src="assets/sea.jpg" alt="">
+            <img class="sea_up_down" src="assets/sea.jpg" alt="">
+            <img class="sea_effect" src="assets/sea_effect.svg" alt="">
+            <img class="sky_effect" src="assets/sky_effect.svg" alt="">
+            <img class="sea_effect_1" src="assets/sky_effect.svg" alt="">
+        </div>
+        <div class="about_text">
+            <h3>_Design apartments</h3>
+            <p>Interior is a visual reflection of 
+                our lifestyle. Minimalism, 
+                spaciousness and elegance are 
+                our main strong requirements 
+                that we are guided by. If it’s in 
+                your style as well, you are 
+                welcome!</p>
+        </div>
+        <div class="links">
+            <p><a href="mailto:sea.sky.od.gmail.com"><strong>E:</strong> sea.sky.od@gmail.com</a></p>
+            <p><a href="tel:+380939134596"><strong>P:</strong> +38.093.91.34.596</a></p>
+            <p><strong>L:</strong> Ukraine, Odessa, by the sea</p>
+            <p><a href="https://www.facebook.com/sea.sky.apartments/" target="_blank">Facebook</a></p>
+            <p><a href="https://www.instagram.com/sea.sky.apartments/" target="_blank">Instagram</a></p>
+        </div>
+    </sectiom>
+
+    <footer>
+        <p>Handcrafted by</a></p>
+    </footer>
+
+    <script>
+        const mobileBtn = document.getElementById('mobile-cta')
+            nav = document.querySelectorAll('nav')
+            mobileBtnExit = document.getElementById('mobile-exit');
+
+        mobileBtn.addEventListener('click', () => {
+            nav.classList.add('menu-btn');
+        })
+
+        mobileBtnExit.addEventListener('click', () => {
+            nav.classList.remove('menu-btn');
+        })
+
+    </script>
+    
+</body>
+</html>
